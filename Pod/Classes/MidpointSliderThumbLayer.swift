@@ -18,7 +18,7 @@ class MidpointSliderThumbLayer: CALayer {
         
         if let slider = midpointSlider {
             
-            let thumbFrame = bounds.insetBy(dx: 0.8, dy: 0.8)
+            let thumbFrame = bounds.insetBy(dx: 2.0, dy: 2.0)
             let cornerRadius = thumbFrame.height * slider.curvaceousness / 2.0
             let thumbPath = UIBezierPath(roundedRect: thumbFrame, cornerRadius: cornerRadius)
             

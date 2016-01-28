@@ -28,7 +28,7 @@ class ViewController: UIViewController {
         midpointSlider.currentValue = 10
         
         // Step 4 (Optional): Set the color of the MidpointSlider to match the look and feel of your app.
-        midpointSlider.trackTintColor = UIColor.orangeColor()
+        //midpointSlider.trackTintColor = UIColor.orangeColor()
         
         // Step 5: Add a target and action to handle when the user changes the MidpointSlider value.
         midpointSlider.addTarget(self, action: "midpointSliderValueChanged:", forControlEvents: UIControlEvents.ValueChanged)

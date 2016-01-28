@@ -51,7 +51,7 @@ public class MidpointSlider: UIControl {
     // MARK: - Properties not intended for updating by user
     //
     
-    // the color of the thumb circle
+    // the inside color of the thumb circle
     let thumbTintColor = UIColor.whiteColor()
     
     // the width of the outline for the thumb circle
@@ -93,16 +93,16 @@ public class MidpointSlider: UIControl {
     
     private func initialize() {
         // adding layers
-        trackLayer.midpointSlider = self                              // back reference
-        trackLayer.contentsScale = UIScreen.mainScreen().scale      // ensure looks good in retina display
+        trackLayer.midpointSlider = self                                // back reference
+        trackLayer.contentsScale = UIScreen.mainScreen().scale          // ensure looks good in retina display
         layer.addSublayer(trackLayer)
         
-        trackMidpointLayer.midpointSlider = self                      // back reference
+        trackMidpointLayer.midpointSlider = self                        // back reference
         trackMidpointLayer.contentsScale = UIScreen.mainScreen().scale
         layer.addSublayer(trackMidpointLayer)
         
-        thumbLayer.midpointSlider = self                              // back reference
-        thumbLayer.contentsScale = UIScreen.mainScreen().scale      // ensure looks good on retina display
+        thumbLayer.midpointSlider = self                                // back reference
+        thumbLayer.contentsScale = UIScreen.mainScreen().scale          // ensure looks good on retina display
         layer.addSublayer(thumbLayer)
     }
     
@@ -129,9 +129,11 @@ public class MidpointSlider: UIControl {
     override public func layoutSubviews() {
         super.layoutSubviews()
         
+        let maximumSliderHeight = 30.0
+        
         if (self.frame.size.height > CGFloat(31.0)) {
             
-            self.frame = CGRect(x: self.frame.origin.x, y: self.frame.origin.y, width: self.frame.size.width, height: 31.0)
+            self.frame = CGRect(x: self.frame.origin.x, y: self.frame.origin.y, width: self.frame.size.width, height: CGFloat(maximumSliderHeight))
             
         } else {
             
