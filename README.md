@@ -45,10 +45,13 @@ class ViewController: UIViewController {
         // STEP 2: Instantiate a new MidPointSlider.
         let midpointSlider = MidpointSlider(frame: CGRect(x: 40, y: 300, width: 300, height: 30))
 
-        // STEP 3: Set the minimum and maximum values for the slider.
+        // STEP 3: Set the minimum and maximum values for the slider and the starting value.
         midpointSlider.minimumValue = -100
         midpointSlider.maximumValue = 100
         midpointSlider.currentValue = 70
+
+        // Optional: Set the color of the MidpointSlider to match the look and feel of your app.
+        midpointSlider.trackTintColor = UIColor.orangeColor()
 
         // STEP 4: Add a target and action to handle when user changes the slider value.
         midpointSlider.addTarget(self, action: "midpointSliderValueChanged:", forControlEvents: UIControlEvents.ValueChanged)
