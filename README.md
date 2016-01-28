@@ -157,10 +157,6 @@ For example:
 }
 ````
 
-See screenshot below.
-
-![screenshot](/imgs/xcode_screen5.png)
-
 ## Author
 
 Clint Cabanero
