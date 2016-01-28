@@ -8,6 +8,8 @@
 
 MidpointSlider is a custom iOS control that allows the user to pull left or right from the slider's center when choosing a value.
 
+![screenshot](/imgs/MidpointSlider.gif)
+
 ## Installation
 
 ####Cocoa Pods
@@ -162,8 +164,6 @@ See screenshot below.
 ## Author
 
 Clint Cabanero
-
-__Connect__:
 * Twitter: [@clintcabanero](http://twitter.com/clintcabanero) 
 * GitHub: [ccabanero](http:///github.com/ccabanero)
 
