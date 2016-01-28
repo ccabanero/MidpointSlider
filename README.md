@@ -6,7 +6,7 @@
 [![Platform](https://img.shields.io/cocoapods/p/MidpointSlider.svg?style=flat)](http://cocoapods.org/pods/MidpointSlider)
 ![Swift 2.0](https://img.shields.io/badge/swift-2.0-orange.svg)
 
-Midpoint Slider is a custom iOS control that allows the user to pull left or right from the slider's center when choosing a value.
+MidpointSlider is a custom iOS control that allows the user to pull left or right from the slider's center when choosing a value.
 
 ## Installation
 
@@ -21,7 +21,7 @@ pod "MidpointSlider"
 
 ####Manual Installation
 
-Alternatively, you can manually copy the following files from the __Source__ folder directly into your Xcode project:
+Alternatively, you can manually copy the following files directly into your Xcode project:
 
 ![screenshot](/imgs/MidpointSlider_manualInstall.png)
 
@@ -29,21 +29,21 @@ Alternatively, you can manually copy the following files from the __Source__ fol
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-Otherwise, see the code snippet below:
+Alternatively, see the code sample below:
 
-Step 1. Import the MidpointSlider library.
+__Step 1__. Import the MidpointSlider library.
 
 ````
 import MidpointSlider 
 ````
 
-Step 2. Instantiate a new MidpointSlider.
+__Step 2__. Instantiate a new MidpointSlider.
 
 ````
 let midpointSlider = MidpointSlider(frame: CGRect(x: 10, y: 10, width: 300, height: 30))
 ````
 
-Step 3. Set the minimum and maximum values for the slider.  By default, -10 is the minimum value and 10 is the maximum value (with 0 as the midpoint).  However, change these values as needed by your application.
+__Step 3__. Set the minimum and maximum values for the slider.  By default, -10 is the minimum value and 10 is the maximum value (with 0 as the midpoint).  However, change these values as needed by your application.
 
 Set the current value for where the slider should start when loaded.  Optionally, set the track tint color to match the look-and-feel of your application.
 
@@ -54,26 +54,26 @@ midpointSlider.currentValue = 70
 midpointSlider.trackTintColor = UIColor.orangeColor()
 ````
 
-Step 4. Add a target and action to handle when user changes the slider value.
+__Step 4__. Add a target and action to handle when user changes the slider value.
 
 ````
 midpointSlider.addTarget(self, action: "midpointSliderValueChanged:", forControlEvents: UIControlEvents.ValueChanged)
 ````
 
-Step 5. Add the MidpointSlider to your view.
+__Step 5__. Add the MidpointSlider to your view.
 
 ````
 view.addSubview(midpointSlider)
 ````
 
-Step 6. Finally, declare your action method to handle when the slider value changes.
+__Step 6__. Finally, declare your action method to handle when the slider value changes.
 
 ````
 func midpointSliderValueChanged(midpointSlider: MidpointSlider) {
 
-let sliderValue = midpointSlider.currentValue
+    let sliderValue = midpointSlider.currentValue
 
-print("Value changed to : \(sliderValue))")
+    print("Value changed to : \(sliderValue))")
 }
 
 ````
@@ -118,19 +118,21 @@ class ViewController: UIViewController {
 
 ##Usage (with Storyboards)
 
-Step 1. In Xcode, drag a UIView to your target scene in your Storyboard. In the __Size Inspector__, change the height of the view to __30__.  Change the width and position to any values that you'd like.  See screenshot below.
+MidpointSlider can also be added to your project using Storyboards by performing the following steps:
+
+__Step 1__. In Xcode, drag a UIView to your target scene in your Storyboard. In the __Size Inspector__, change the height of the view to __30__.  Change the width and position to any values that you'd like.  See screenshot below.
 
 ![screenshot](/imgs/xcode_screen1.png)
 
-Step 2. In the __Identity Inspector__, declare the class as __MidpointSlider__ and press enter.  You will see the MidpointSlider control appear.  See screenshot below.
+__Step 2__. In the __Identity Inspector__, declare the class as __MidpointSlider__ and press enter.  You will see the MidpointSlider control appear.  See screenshot below.
 
 ![screenshot](/imgs/xcode_screen2.png)
 
-Step 3. In the __Attributes Inspector__, change the minimum slider value, maximum slider value, current value, and tint color of the MidpointSlider to values that make sense for your application.  See screenshot below.
+__Step 3__. In the __Attributes Inspector__, change the minimum slider value, maximum slider value, current value, and tint color of the MidpointSlider to values that make sense for your application.  See screenshot below.
 
 ![screenshot](/imgs/xcode_screen3.png)
 
-Step 4. 'Control Button Drag' from the MidpointSlider on your scene to your associated ViewController class.  Choose the following options to create an action method:
+__Step 4__. 'Control Button Drag' from the MidpointSlider on your scene to your associated ViewController class.  Choose the following options to create an action method:
 
 * Connection = Action
 * Name = handleValueChanged (or any other meaningful action method name)
@@ -140,7 +142,7 @@ Click on the __Connect__ button.  See screenshot below.
 
 ![screenshot](/imgs/xcode_screen4.png)
 
-Step 5. Implement your action method.  
+__Step 5__. Implement your action method.  
 
 For example:
 
@@ -155,13 +157,13 @@ For example:
 
 See screenshot below.
 
-![screenshot](/md/xcode_screen5.png)
+![screenshot](/imgs/xcode_screen5.png)
 
 ## Author
 
 Clint Cabanero
 
-####Connect:
+__Connect__:
 * Twitter: [@clintcabanero](http://twitter.com/clintcabanero) 
 * GitHub: [ccabanero](http:///github.com/ccabanero)
 
