@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'MidpointSlider_Example', :exclusive => true do
+  pod 'MidpointSlider', :path => '../'
+end
+
+target 'MidpointSlider_Tests', :exclusive => true do
+  pod 'MidpointSlider', :path => '../'
+
+  
+end
