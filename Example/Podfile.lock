@@ -1,5 +1,5 @@
 PODS:
-  - MidpointSlider (0.1.0)
+  - MidpointSlider (1.0.0)
 
 DEPENDENCIES:
   - MidpointSlider (from `../`)
@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  MidpointSlider: 2914f6bb04e9c9b866a1bec6d01d0c9396744c45
+  MidpointSlider: 8f9d11f5c593aa908cbfe9dfbab5758778a777f8
 
 COCOAPODS: 0.39.0

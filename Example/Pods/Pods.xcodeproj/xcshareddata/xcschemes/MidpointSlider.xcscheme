@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '0B7F42C5088A17669CD0A1D4'
+               BlueprintIdentifier = '07FCE9445016720C6CCA0B89'
                BlueprintName = 'MidpointSlider'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'MidpointSlider.framework'>

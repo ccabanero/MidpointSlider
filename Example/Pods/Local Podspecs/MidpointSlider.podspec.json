@@ -1,17 +1,18 @@
 {
   "name": "MidpointSlider",
-  "version": "0.1.0",
-  "summary": "A short description of MidpointSlider.",
-  "description": "",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/MidpointSlider",
+  "version": "1.0.0",
+  "summary": "MidpointSlider is a custom iOS control that allows the user to pull left or right from the slider's center when choosing a value.",
+  "description": "MidpointSlider is a custom iOS control that allows the user to pull left or right from the slider's center when choosing a value.  The slider's minimum and maximum values are configurable as well as the slider tint color.",
+  "homepage": "https://github.com/ccabanero/MidpointSlider",
   "license": "MIT",
   "authors": {
     "Clint Cabanero": "clintcabanero@gmail.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/MidpointSlider.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/ccabanero/MidpointSlider.git",
+    "tag": "1.0.0"
   },
+  "social_media_url": "https://twitter.com/clintcabanero",
   "platforms": {
     "ios": "8.0"
   },
@@ -21,5 +22,9 @@
     "MidpointSlider": [
       "Pod/Assets/*.png"
     ]
-  }
+  },
+  "frameworks": [
+    "UIKit",
+    "QuartzCore"
+  ]
 }
