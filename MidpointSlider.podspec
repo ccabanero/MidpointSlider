@@ -21,13 +21,13 @@ Pod::Spec.new do |s|
                         DESC
 
     s.homepage         = "https://github.com/ccabanero/MidpointSlider"
-    # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+    s.screenshots     = "http://s3.amazonaws.com/big-leaf-public/pod_screenshots/MidpointSlider.gif"
     s.license          = 'MIT'
     s.author           = { "Clint Cabanero" => "clintcabanero@gmail.com" }
     s.source           = { :git => "https://github.com/ccabanero/MidpointSlider.git", :tag => s.version.to_s }
     s.social_media_url = 'https://twitter.com/clintcabanero'
 
-    s.platform     = :ios, '8.0'
+    s.platform     = :ios, '8.3'
     s.requires_arc = true
 
     s.source_files = 'Pod/Classes/**/*'
