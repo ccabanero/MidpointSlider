@@ -1,0 +1,25 @@
+{
+  "name": "MidpointSlider",
+  "version": "0.1.0",
+  "summary": "A short description of MidpointSlider.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/MidpointSlider",
+  "license": "MIT",
+  "authors": {
+    "Clint Cabanero": "clintcabanero@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/MidpointSlider.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "MidpointSlider": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+framework module MidpointSlider {
+  umbrella header "MidpointSlider-umbrella.h"
+
+  export *
+  module * { export * }
+}

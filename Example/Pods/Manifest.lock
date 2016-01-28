@@ -1,0 +1,14 @@
+PODS:
+  - MidpointSlider (0.1.0)
+
+DEPENDENCIES:
+  - MidpointSlider (from `../`)
+
+EXTERNAL SOURCES:
+  MidpointSlider:
+    :path: ../
+
+SPEC CHECKSUMS:
+  MidpointSlider: 2914f6bb04e9c9b866a1bec6d01d0c9396744c45
+
+COCOAPODS: 0.39.0

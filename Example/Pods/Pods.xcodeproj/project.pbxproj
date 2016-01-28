@@ -1,0 +1,780 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0138E93A1FB441AAFC574288766F3873 /* Pods-MidpointSlider_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A39A63AE5F235EA829775048B27EF284 /* Pods-MidpointSlider_Tests-dummy.m */; };
+		117DE7DA14402DBCC8AE842B2FA57686 /* MidpointSlider-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 326B6BDC2E804285DB8D02DF5A4D2314 /* MidpointSlider-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2047B3BFAB8665A707BCDA630B303E08 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		24180303F3BEF2D1C2623D2EE94E3D19 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		281AAFD57571D6D25648FB17538D4746 /* MidpointSlider.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 01C9AE64CC9BD3BB3CD1BF4D13153CC3 /* MidpointSlider.bundle */; };
+		451BD4F44C9602966C8C3501DE051D7C /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DAB54B4B53B06F2589BA13908E08AA /* ReplaceMe.swift */; };
+		485E2F4F2CDA227724895ECCC19610F8 /* Pods-MidpointSlider_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 32AD6A1B55120B64A7340C29172D3746 /* Pods-MidpointSlider_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56DD369CBFE4C69A4805AE321F87EF71 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		A9EC9620CAD8A6C5D61C7587367F87AC /* Pods-MidpointSlider_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFDD7E4F23C277B122046DC9D856757 /* Pods-MidpointSlider_Example-dummy.m */; };
+		D102BAA1D777E5C3674DCEDE99A857CB /* MidpointSlider-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0887B2B4D5D95975477C3C055F6420B4 /* MidpointSlider-dummy.m */; };
+		D6D3CE2657F87580F2C1E24ACD7D8972 /* Pods-MidpointSlider_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FED177AD93E9AC888380FFB7C47EE43A /* Pods-MidpointSlider_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0EFF740B1B367B6B281AEE1B17BFF12B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8604FFEB0706FAD7A5E4DA69FBA9FB5D;
+			remoteInfo = "MidpointSlider-MidpointSlider";
+		};
+		9FEE6658B92CE6E3507CCD55CBD887A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A7D3C6725EF9178A5699480CB57B3EB;
+			remoteInfo = MidpointSlider;
+		};
+		D52AAA104EC449D8609E79E805244731 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A7D3C6725EF9178A5699480CB57B3EB;
+			remoteInfo = MidpointSlider;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01C9AE64CC9BD3BB3CD1BF4D13153CC3 /* MidpointSlider.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MidpointSlider.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		04651B08CA7E4720848C12448D76998B /* MidpointSlider.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MidpointSlider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		08876E5040CAF46EC54D2B8076BA1548 /* Pods_MidpointSlider_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MidpointSlider_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0887B2B4D5D95975477C3C055F6420B4 /* MidpointSlider-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MidpointSlider-dummy.m"; sourceTree = "<group>"; };
+		0D5414A222E6F70FA581880A67071EA3 /* Pods-MidpointSlider_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MidpointSlider_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		258322320018F5FE7CC3B800B88B236B /* Pods_MidpointSlider_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MidpointSlider_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		26685A09302BFE9C22E6FB123CBBEE57 /* Pods-MidpointSlider_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MidpointSlider_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		297C35CEB0E8A5031D7BD6347706A663 /* Pods-MidpointSlider_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MidpointSlider_Example.modulemap"; sourceTree = "<group>"; };
+		2EFDD7E4F23C277B122046DC9D856757 /* Pods-MidpointSlider_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MidpointSlider_Example-dummy.m"; sourceTree = "<group>"; };
+		326B6BDC2E804285DB8D02DF5A4D2314 /* MidpointSlider-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MidpointSlider-umbrella.h"; sourceTree = "<group>"; };
+		32AD6A1B55120B64A7340C29172D3746 /* Pods-MidpointSlider_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MidpointSlider_Tests-umbrella.h"; sourceTree = "<group>"; };
+		3BAA3D36A9B9D63FB07D255804E4AEE2 /* Pods-MidpointSlider_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MidpointSlider_Example-resources.sh"; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		407EDCAF8B9D53A7ABC0B5D13AF15B64 /* Pods-MidpointSlider_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MidpointSlider_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		42DAB54B4B53B06F2589BA13908E08AA /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
+		573C993D582C752D366BA40770CB2A0A /* MidpointSlider-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MidpointSlider-prefix.pch"; sourceTree = "<group>"; };
+		58688B638DDEC9A560D4442348CF08C3 /* Pods-MidpointSlider_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MidpointSlider_Tests.modulemap"; sourceTree = "<group>"; };
+		5F5420A4A9D7003913D29DB83E149F3D /* Pods-MidpointSlider_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MidpointSlider_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		689C2A2093696C2FC3356663161FA3F7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73928819FE4722EF449BEA3FD149E299 /* Pods-MidpointSlider_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MidpointSlider_Tests-resources.sh"; sourceTree = "<group>"; };
+		74D4309D2B8AB4147CC3C65B946A3551 /* Pods-MidpointSlider_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MidpointSlider_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		80BE20869B783DD0D7D0AD372451A596 /* Pods-MidpointSlider_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MidpointSlider_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		A39A63AE5F235EA829775048B27EF284 /* Pods-MidpointSlider_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MidpointSlider_Tests-dummy.m"; sourceTree = "<group>"; };
+		AB35F4EB289F61973BED36DE2D741CC8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B30F333DD3D9F906847E9F4F07D2D474 /* MidpointSlider.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MidpointSlider.xcconfig; sourceTree = "<group>"; };
+		B95C26415E852DDC19B9473B490DAD42 /* Pods-MidpointSlider_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MidpointSlider_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C17BDC6AED9FD7015CBD2EA6547BC975 /* MidpointSlider.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MidpointSlider.modulemap; sourceTree = "<group>"; };
+		C25FF67C1BE851BAEFD54376B2F7E0B6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE270D778A96731965ECC8D8CEE87565 /* Pods-MidpointSlider_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MidpointSlider_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		CE4820D7202F25C4AA05360899A53693 /* Pods-MidpointSlider_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MidpointSlider_Example-frameworks.sh"; sourceTree = "<group>"; };
+		D02348A990FDA0EFC4D4429716F4EA11 /* Pods-MidpointSlider_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MidpointSlider_Example.release.xcconfig"; sourceTree = "<group>"; };
+		FED177AD93E9AC888380FFB7C47EE43A /* Pods-MidpointSlider_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MidpointSlider_Example-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22A273EACE297B7714531A5507053D66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34D3A2304D2987AB0603844C266816D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2047B3BFAB8665A707BCDA630B303E08 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A8E074301B9E663C5B736C4D174050D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56DD369CBFE4C69A4805AE321F87EF71 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B80CA1B254719996CC4F06B9CAE6473 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24180303F3BEF2D1C2623D2EE94E3D19 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09654936F77993A4B1184EAA4622CEC7 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				3BE12082040022867E6020857490A88F /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		1A7DE1549C09D5FED2B652811D6FD9AC /* MidpointSlider */ = {
+			isa = PBXGroup;
+			children = (
+				09654936F77993A4B1184EAA4622CEC7 /* Pod */,
+				B419FC344205309D375B45A52A4C6E11 /* Support Files */,
+			);
+			name = MidpointSlider;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		3489FBDA0A122D3587BDC5444BC386A8 /* Pods-MidpointSlider_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C25FF67C1BE851BAEFD54376B2F7E0B6 /* Info.plist */,
+				58688B638DDEC9A560D4442348CF08C3 /* Pods-MidpointSlider_Tests.modulemap */,
+				26685A09302BFE9C22E6FB123CBBEE57 /* Pods-MidpointSlider_Tests-acknowledgements.markdown */,
+				0D5414A222E6F70FA581880A67071EA3 /* Pods-MidpointSlider_Tests-acknowledgements.plist */,
+				A39A63AE5F235EA829775048B27EF284 /* Pods-MidpointSlider_Tests-dummy.m */,
+				80BE20869B783DD0D7D0AD372451A596 /* Pods-MidpointSlider_Tests-frameworks.sh */,
+				73928819FE4722EF449BEA3FD149E299 /* Pods-MidpointSlider_Tests-resources.sh */,
+				32AD6A1B55120B64A7340C29172D3746 /* Pods-MidpointSlider_Tests-umbrella.h */,
+				5F5420A4A9D7003913D29DB83E149F3D /* Pods-MidpointSlider_Tests.debug.xcconfig */,
+				74D4309D2B8AB4147CC3C65B946A3551 /* Pods-MidpointSlider_Tests.release.xcconfig */,
+			);
+			name = "Pods-MidpointSlider_Tests";
+			path = "Target Support Files/Pods-MidpointSlider_Tests";
+			sourceTree = "<group>";
+		};
+		3BE12082040022867E6020857490A88F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				42DAB54B4B53B06F2589BA13908E08AA /* ReplaceMe.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				8D2044DFBFC77C04D57E9C28A314B943 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				D53B4123AB0D96D42FDC0122A29DB596 /* Products */,
+				FF2A52C06A0BBF86231C9EB787ED19C8 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8D2044DFBFC77C04D57E9C28A314B943 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1A7DE1549C09D5FED2B652811D6FD9AC /* MidpointSlider */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		B419FC344205309D375B45A52A4C6E11 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				689C2A2093696C2FC3356663161FA3F7 /* Info.plist */,
+				C17BDC6AED9FD7015CBD2EA6547BC975 /* MidpointSlider.modulemap */,
+				B30F333DD3D9F906847E9F4F07D2D474 /* MidpointSlider.xcconfig */,
+				0887B2B4D5D95975477C3C055F6420B4 /* MidpointSlider-dummy.m */,
+				573C993D582C752D366BA40770CB2A0A /* MidpointSlider-prefix.pch */,
+				326B6BDC2E804285DB8D02DF5A4D2314 /* MidpointSlider-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MidpointSlider";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D53B4123AB0D96D42FDC0122A29DB596 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01C9AE64CC9BD3BB3CD1BF4D13153CC3 /* MidpointSlider.bundle */,
+				04651B08CA7E4720848C12448D76998B /* MidpointSlider.framework */,
+				258322320018F5FE7CC3B800B88B236B /* Pods_MidpointSlider_Example.framework */,
+				08876E5040CAF46EC54D2B8076BA1548 /* Pods_MidpointSlider_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F8D9ED1AF14A300956BF955AE0FE471D /* Pods-MidpointSlider_Example */ = {
+			isa = PBXGroup;
+			children = (
+				AB35F4EB289F61973BED36DE2D741CC8 /* Info.plist */,
+				297C35CEB0E8A5031D7BD6347706A663 /* Pods-MidpointSlider_Example.modulemap */,
+				B95C26415E852DDC19B9473B490DAD42 /* Pods-MidpointSlider_Example-acknowledgements.markdown */,
+				CE270D778A96731965ECC8D8CEE87565 /* Pods-MidpointSlider_Example-acknowledgements.plist */,
+				2EFDD7E4F23C277B122046DC9D856757 /* Pods-MidpointSlider_Example-dummy.m */,
+				CE4820D7202F25C4AA05360899A53693 /* Pods-MidpointSlider_Example-frameworks.sh */,
+				3BAA3D36A9B9D63FB07D255804E4AEE2 /* Pods-MidpointSlider_Example-resources.sh */,
+				FED177AD93E9AC888380FFB7C47EE43A /* Pods-MidpointSlider_Example-umbrella.h */,
+				407EDCAF8B9D53A7ABC0B5D13AF15B64 /* Pods-MidpointSlider_Example.debug.xcconfig */,
+				D02348A990FDA0EFC4D4429716F4EA11 /* Pods-MidpointSlider_Example.release.xcconfig */,
+			);
+			name = "Pods-MidpointSlider_Example";
+			path = "Target Support Files/Pods-MidpointSlider_Example";
+			sourceTree = "<group>";
+		};
+		FF2A52C06A0BBF86231C9EB787ED19C8 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F8D9ED1AF14A300956BF955AE0FE471D /* Pods-MidpointSlider_Example */,
+				3489FBDA0A122D3587BDC5444BC386A8 /* Pods-MidpointSlider_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3D85184891D2245D00F8070D83A014B4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6D3CE2657F87580F2C1E24ACD7D8972 /* Pods-MidpointSlider_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7954322E01E2A837DEE19161E71BBC56 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				485E2F4F2CDA227724895ECCC19610F8 /* Pods-MidpointSlider_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96BA4AC8B9103E98D41EED685BCB3F38 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				117DE7DA14402DBCC8AE842B2FA57686 /* MidpointSlider-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		065A100D58A57441194DB626436CD036 /* Pods-MidpointSlider_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D85481E8A16FD0808A9D2D47B98B9F7 /* Build configuration list for PBXNativeTarget "Pods-MidpointSlider_Example" */;
+			buildPhases = (
+				6238ABFF477DA745CB4288405F7C7D57 /* Sources */,
+				34D3A2304D2987AB0603844C266816D3 /* Frameworks */,
+				3D85184891D2245D00F8070D83A014B4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22D665D2DA3E91E7C39C5B8386F7500F /* PBXTargetDependency */,
+			);
+			name = "Pods-MidpointSlider_Example";
+			productName = "Pods-MidpointSlider_Example";
+			productReference = 258322320018F5FE7CC3B800B88B236B /* Pods_MidpointSlider_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2A7D3C6725EF9178A5699480CB57B3EB /* MidpointSlider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD7753C3811ECF81504922F3BAC8C096 /* Build configuration list for PBXNativeTarget "MidpointSlider" */;
+			buildPhases = (
+				27726D7221BE90E628453892C37320FF /* Sources */,
+				6A8E074301B9E663C5B736C4D174050D /* Frameworks */,
+				DB4EC02DA447863D68C3BAE94B898E35 /* Resources */,
+				96BA4AC8B9103E98D41EED685BCB3F38 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B2500437CB9808A1B9EE1D700903F1F /* PBXTargetDependency */,
+			);
+			name = MidpointSlider;
+			productName = MidpointSlider;
+			productReference = 04651B08CA7E4720848C12448D76998B /* MidpointSlider.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8155C2396885CDB5EEAEBC74F9C9F90C /* Pods-MidpointSlider_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A2649CB3780331BCF871B27B0DEDA81 /* Build configuration list for PBXNativeTarget "Pods-MidpointSlider_Tests" */;
+			buildPhases = (
+				0C1A04833662CC0192C024376ECEDCA8 /* Sources */,
+				8B80CA1B254719996CC4F06B9CAE6473 /* Frameworks */,
+				7954322E01E2A837DEE19161E71BBC56 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F8030CDBEC85FF40EF9545EA2763E56 /* PBXTargetDependency */,
+			);
+			name = "Pods-MidpointSlider_Tests";
+			productName = "Pods-MidpointSlider_Tests";
+			productReference = 08876E5040CAF46EC54D2B8076BA1548 /* Pods_MidpointSlider_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8604FFEB0706FAD7A5E4DA69FBA9FB5D /* MidpointSlider-MidpointSlider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1624D35D9E05B116C4C8C9870B33661 /* Build configuration list for PBXNativeTarget "MidpointSlider-MidpointSlider" */;
+			buildPhases = (
+				BACAB7A92FE08B6D439C4A936DACBB2A /* Sources */,
+				22A273EACE297B7714531A5507053D66 /* Frameworks */,
+				7CB8A000DD7B5C36127DA83E84B6BBD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MidpointSlider-MidpointSlider";
+			productName = "MidpointSlider-MidpointSlider";
+			productReference = 01C9AE64CC9BD3BB3CD1BF4D13153CC3 /* MidpointSlider.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = D53B4123AB0D96D42FDC0122A29DB596 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A7D3C6725EF9178A5699480CB57B3EB /* MidpointSlider */,
+				8604FFEB0706FAD7A5E4DA69FBA9FB5D /* MidpointSlider-MidpointSlider */,
+				065A100D58A57441194DB626436CD036 /* Pods-MidpointSlider_Example */,
+				8155C2396885CDB5EEAEBC74F9C9F90C /* Pods-MidpointSlider_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7CB8A000DD7B5C36127DA83E84B6BBD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB4EC02DA447863D68C3BAE94B898E35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				281AAFD57571D6D25648FB17538D4746 /* MidpointSlider.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0C1A04833662CC0192C024376ECEDCA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0138E93A1FB441AAFC574288766F3873 /* Pods-MidpointSlider_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27726D7221BE90E628453892C37320FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D102BAA1D777E5C3674DCEDE99A857CB /* MidpointSlider-dummy.m in Sources */,
+				451BD4F44C9602966C8C3501DE051D7C /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6238ABFF477DA745CB4288405F7C7D57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9EC9620CAD8A6C5D61C7587367F87AC /* Pods-MidpointSlider_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BACAB7A92FE08B6D439C4A936DACBB2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		22D665D2DA3E91E7C39C5B8386F7500F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MidpointSlider;
+			target = 2A7D3C6725EF9178A5699480CB57B3EB /* MidpointSlider */;
+			targetProxy = D52AAA104EC449D8609E79E805244731 /* PBXContainerItemProxy */;
+		};
+		4F8030CDBEC85FF40EF9545EA2763E56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MidpointSlider;
+			target = 2A7D3C6725EF9178A5699480CB57B3EB /* MidpointSlider */;
+			targetProxy = 9FEE6658B92CE6E3507CCD55CBD887A2 /* PBXContainerItemProxy */;
+		};
+		5B2500437CB9808A1B9EE1D700903F1F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "MidpointSlider-MidpointSlider";
+			target = 8604FFEB0706FAD7A5E4DA69FBA9FB5D /* MidpointSlider-MidpointSlider */;
+			targetProxy = 0EFF740B1B367B6B281AEE1B17BFF12B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0E24F969DFB7D25D95392BF2E3411FB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 407EDCAF8B9D53A7ABC0B5D13AF15B64 /* Pods-MidpointSlider_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MidpointSlider_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MidpointSlider_Example/Pods-MidpointSlider_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_MidpointSlider_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3DC8855D2443A8DB5EB8A831F9D8268F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D02348A990FDA0EFC4D4429716F4EA11 /* Pods-MidpointSlider_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MidpointSlider_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MidpointSlider_Example/Pods-MidpointSlider_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_MidpointSlider_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		48C81F88033055879CA8E5E0C44AA962 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B30F333DD3D9F906847E9F4F07D2D474 /* MidpointSlider.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = MidpointSlider;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		552D02D5BA751AC2E8790D2811D496CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8811950CD87776811F59E8C277347FCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B30F333DD3D9F906847E9F4F07D2D474 /* MidpointSlider.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MidpointSlider/MidpointSlider-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MidpointSlider/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MidpointSlider/MidpointSlider.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = MidpointSlider;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A8AC67F140E9E5327EB09072208D6C26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74D4309D2B8AB4147CC3C65B946A3551 /* Pods-MidpointSlider_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MidpointSlider_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MidpointSlider_Tests/Pods-MidpointSlider_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_MidpointSlider_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B4ACD2037178EA86451B5B565B82AE30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F5420A4A9D7003913D29DB83E149F3D /* Pods-MidpointSlider_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MidpointSlider_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MidpointSlider_Tests/Pods-MidpointSlider_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_MidpointSlider_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BFBDD92C2D6C4FC3DEFDBE347E34DA48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B30F333DD3D9F906847E9F4F07D2D474 /* MidpointSlider.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MidpointSlider/MidpointSlider-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MidpointSlider/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MidpointSlider/MidpointSlider.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = MidpointSlider;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E1AE3C55625CAC2752627FCEDB5C8BF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B30F333DD3D9F906847E9F4F07D2D474 /* MidpointSlider.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = MidpointSlider;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				552D02D5BA751AC2E8790D2811D496CA /* Debug */,
+				10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A2649CB3780331BCF871B27B0DEDA81 /* Build configuration list for PBXNativeTarget "Pods-MidpointSlider_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4ACD2037178EA86451B5B565B82AE30 /* Debug */,
+				A8AC67F140E9E5327EB09072208D6C26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D85481E8A16FD0808A9D2D47B98B9F7 /* Build configuration list for PBXNativeTarget "Pods-MidpointSlider_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E24F969DFB7D25D95392BF2E3411FB3 /* Debug */,
+				3DC8855D2443A8DB5EB8A831F9D8268F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1624D35D9E05B116C4C8C9870B33661 /* Build configuration list for PBXNativeTarget "MidpointSlider-MidpointSlider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1AE3C55625CAC2752627FCEDB5C8BF0 /* Debug */,
+				48C81F88033055879CA8E5E0C44AA962 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD7753C3811ECF81504922F3BAC8C096 /* Build configuration list for PBXNativeTarget "MidpointSlider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8811950CD87776811F59E8C277347FCE /* Debug */,
+				BFBDD92C2D6C4FC3DEFDBE347E34DA48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
