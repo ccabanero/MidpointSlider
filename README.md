@@ -26,7 +26,7 @@ it, simply add the following line to your Podfile:
 pod "MidpointSlider"
 ```
 
-For example, the Podfile in your project directonary may look like the following:
+For example, the Podfile in your project directory should resemble the following:
 
 ````
 platform :ios, '8.3'
