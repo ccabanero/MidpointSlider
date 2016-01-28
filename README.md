@@ -33,57 +33,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 Alternatively, see the code sample below:
 
-__Step 1__. Import the MidpointSlider library.
-
 ````
-import MidpointSlider 
-````
-
-__Step 2__. Instantiate a new MidpointSlider.
-
-````
-let midpointSlider = MidpointSlider(frame: CGRect(x: 10, y: 10, width: 300, height: 30))
-````
-
-__Step 3__. Set the minimum and maximum values for the slider.  By default, -10 is the minimum value and 10 is the maximum value (with 0 as the midpoint).  However, change these values as needed by your application.
-
-Set the current value for where the slider should start when loaded.  Optionally, set the track tint color to match the look-and-feel of your application.
-
-````
-midpointSlider.minimumValue = -100
-midpointSlider.maximumValue = 100
-midpointSlider.currentValue = 70
-midpointSlider.trackTintColor = UIColor.orangeColor()
-````
-
-__Step 4__. Add a target and action to handle when user changes the slider value.
-
-````
-midpointSlider.addTarget(self, action: "midpointSliderValueChanged:", forControlEvents: UIControlEvents.ValueChanged)
-````
-
-__Step 5__. Add the MidpointSlider to your view.
-
-````
-view.addSubview(midpointSlider)
-````
-
-__Step 6__. Finally, declare your action method to handle when the slider value changes.
-
-````
-func midpointSliderValueChanged(midpointSlider: MidpointSlider) {
-
-    let sliderValue = midpointSlider.currentValue
-
-    print("Value changed to : \(sliderValue))")
-}
-
-````
-
-Complete Programmatic Code Sample:
-
-````
-
 // STEP 1: Import the MidpointSlider.
 import MidpointSlider
 
