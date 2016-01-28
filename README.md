@@ -9,6 +9,12 @@ MidpointSlider is a custom iOS control that allows the user to pull left or righ
 
 ![screenshot](/imgs/MidpointSlider.gif)
 
+## Requirements
+
+* Xcode 7.x
+* Swift 2.x
+* iOS Deployment Target (earliest supported version) is 8.3
+
 ## Installation
 
 ####Cocoa Pods
@@ -19,6 +25,17 @@ it, simply add the following line to your Podfile:
 ```
 pod "MidpointSlider"
 ```
+
+For example, the Podfile in your project directonary may look like the following:
+
+````
+platform :ios, '8.3'
+use_frameworks!
+
+target 'YourProjectName' do
+    pod 'MidpointSlider'
+end
+````
 
 ####Manual Installation
 
@@ -96,11 +113,15 @@ Click on the __Connect__ button.  See screenshot below.
 
 ![screenshot](/imgs/xcode_screen4.png)
 
-__Step 5__. Implement your action method.  
+__Step 5__. Add an Import statement for the library and Implement your action method.  
 
 For example:
 
 ````
+import MidpointSlider
+
+...
+
 @IBAction func handleValueChanged(sender: MidpointSlider)  {
 
     let sliderValue = midpointSlider.currentValue
