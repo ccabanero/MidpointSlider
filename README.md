@@ -1,6 +1,5 @@
 # MidpointSlider
 
-[![CI Status](http://img.shields.io/travis/Clint Cabanero/MidpointSlider.svg?style=flat)](https://travis-ci.org/Clint Cabanero/MidpointSlider)
 [![Version](https://img.shields.io/cocoapods/v/MidpointSlider.svg?style=flat)](http://cocoapods.org/pods/MidpointSlider)
 [![License](https://img.shields.io/cocoapods/l/MidpointSlider.svg?style=flat)](http://cocoapods.org/pods/MidpointSlider)
 [![Platform](https://img.shields.io/cocoapods/p/MidpointSlider.svg?style=flat)](http://cocoapods.org/pods/MidpointSlider)
