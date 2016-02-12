@@ -17,7 +17,7 @@ MidpointSlider is a custom iOS control that allows the user to pull left or righ
 
 ## Installation
 
-####Cocoa Pods
+####CocoaPods
 
 MidpointSlider is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
